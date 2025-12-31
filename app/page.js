@@ -11,7 +11,7 @@ const Index = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <main className="flex-grow">
+      <main className="grow">
         <HeroSection />
         <FeaturesSection />
         <CTASection />
